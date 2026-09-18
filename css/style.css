@@ -1,3 +1,36 @@
-h1{
-    color: #333;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, footer{
+    background-color: rgb(173, 250, 173);
+    padding: 20px;
+    text-align: center;
+    margin-top: 24px;
+}
+
+.intro{
+    background-color: yellow;
+    padding: 20px;
+    text-align: center;
+    margin-top: 24px;
+}
+
+article{
+    background-color: aqua;
+    text-align: center;
+    padding: 20px;
+    margin-top: 24px;
+    border: 1px solid black;
+}
+
+@media(min-width: 768px){
+    article{
+        display: inline-block;
+        width: 30%;
+        vertical-align: top;
+        margin-right: 3%
+    }
 }
