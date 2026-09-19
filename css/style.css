@@ -18,11 +18,13 @@ header, footer{
     margin-top: 24px;
 }
 
-article{
+article {
     background-color: aqua;
     text-align: center;
     padding: 20px;
     margin-top: 24px;
+    margin-bottom: 16px;
+    width: 100%;
     border: 1px solid black;
 }
 
@@ -31,6 +33,6 @@ article{
         display: inline-block;
         width: 30%;
         vertical-align: top;
-        margin-right: 3%
+        margin-right: 3%;
     }
 }
